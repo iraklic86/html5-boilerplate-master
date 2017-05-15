@@ -50,10 +50,11 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: #f8f5bd;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-weight: 100
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -122,9 +123,11 @@ margin-top:1.5rem;}
 
 .mainctabox2 {margin: auto;
     display: inline-block;
-padding:1rem;
-margin-left:10rem;
+margin-left:20rem;
 margin-right:3rem;
+    margin-top:2rem;
+        margin-bottom:2rem;
+
 width:40rem;}
 
 
@@ -170,9 +173,57 @@ margin:autor;}
 
 /* SEPARATOR */
 
-.separator {border-bottom-style:dashed;
-border-bottom-width: 2px;
- border-bottom-color:#4d4b42;
-    color:#4d4b42;
+.separatordashed {
 clear: both;
-margin-top:5rem;}
+height:5rem;}
+
+.separator {clear:both;}
+
+
+/*Submit form */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 0px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    padding: 20px;
+    margin:auto;
+    width:50%;
+    padding-top:5rem;
+}
+
+.container label {    color:#4d4b42;
+    font-family: 'Anton',serif;}
+
+
+
+footer {padding:1rem;
+    background-color:#4d4b42;
+color:#f8f5bd}
